@@ -23,7 +23,6 @@ pipeline {
         stage("push"){
             steps{
                echo 'code pushed'
-                }
             }
         }
         stage("deploy"){
@@ -33,4 +32,5 @@ pipeline {
             }
         }
     }
+}
 
